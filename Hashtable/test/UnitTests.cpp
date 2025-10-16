@@ -2,6 +2,7 @@
 
 extern "C" {
 	#include "../include/ht.h"
+	#include "../include/hashFunctions.h"
 }
 
 TEST (TestSuite_HT, FirstTest) {

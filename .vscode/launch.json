@@ -10,7 +10,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/Hashtable",  
             "type":  "lldb", // install CodeLLDB
-            "program": "${workspaceFolder}/Hashtable/bin/htInvoiceDriver", // warnings if no default is given
+            "program": "${workspaceFolder}/Hashtable/bin/main", // warnings if no default is given
             "console": "integratedTerminal",
             "preLaunchTask": "build", // THIS IS IMPORTANT
             // "initCommands": [ // add commands to send to the debugger (LLDB)

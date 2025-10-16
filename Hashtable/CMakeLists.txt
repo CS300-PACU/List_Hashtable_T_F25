@@ -21,10 +21,12 @@ endif()
  set (Headers
      include/ht.h
 		 ../List/include/list.h
+		 ../include/hashFunctions.h
  )
  set (Sources
      src/ht.c
 		 ../List/src/list.c
+		 src/hashFunctions.c
  )
 
 add_library(${This} STATIC ${Sources} ${Headers})
