@@ -21,7 +21,7 @@ endif()
  set (Headers
      include/ht.h
 		 ../List/include/list.h
-		 ../include/hashFunctions.h
+		 include/hashFunctions.h
  )
  set (Sources
      src/ht.c
